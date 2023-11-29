@@ -7,11 +7,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zach Weiss</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url('wp-galaxy.png');
+            background-color: rgba(123, 92, 130, 0.7);
+        }
+
+        .navbar {
+            background-color: #7B5C82; /* Purple background color */
+            overflow: hidden;
+            padding: 10px; /* Add some padding for better appearance */
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #544064; /* Darker purple on hover */
+        }
+
+        table {
+            width: 70%;
+            color: black; /* Reverted text color to black */
+            background-color: rgba(123, 92, 130, 0.7);
+            margin: auto;
+            margin-top: 50px; /* Adjust the margin to position the table below the navigation bar */
+        }
+
+        table, th, td {
+            border: 2px solid rgba(42, 30, 148, 0.2);
+        }
+
+        th, td {
+            padding: 15px;
+        }
+    </style>
 </head>
 
-<body style="background-image: url('wp-galaxy.png'); background-color: rgba(123, 92, 130, 0.7); font-family: arial, helvetica, sans-serif;">
+<body>
+    <div class="navbar">
+        <a href="home">Home</a>
+        <a href="PVCC">PVCC</a>
+        <a href="W3 Schools">W3 Schools</a>
+        <a href="contactus.html">Contact Us</a>
+    </div>
 
-    <table border="2" style="width: 70%; color: rgba(42, 30, 148, 0.2), 2); background-color: rgba(123, 92, 130, 0.7); margin: auto;">
+    <table>
         <tr>
             <td>
                 <ul>
@@ -52,9 +102,7 @@
                 </ul>
             </td>
         </tr>
-        <tr>
-            <td style="width:1000px;"><a href="contactus.html">Contact us</a></td>
-        </tr>
+       
     </table>
 </body>
 
