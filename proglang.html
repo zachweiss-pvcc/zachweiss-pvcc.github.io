@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 6: Programming Languages</title>
+    <style>
+        body {
+            font-family: 'Helvetica', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0c0c0c; /* Set background color to dark grey */
+            color: #fff; /* Set text color to white */
+        }
+
+        header {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #001f3f; /* Set background color to dark blue */
+            color: #0cf; /* Set text color to cyan */
+        }
+
+        header h1 {
+            margin-bottom: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #ff5733; /* Set background color to orange-red */
+            color: #fff; /* Set text color to white */
+            text-align: center;
+            overflow: hidden;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff; /* Set text color to white */
+            font-weight: bold;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #001f3f; /* Set background color to dark blue */
+            color: #fff; /* Set text color to white */
+        }
+
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #ff5733; /* Set background color to orange-red */
+        }
+
+        footer {
+            background-color: #0c0c0c; /* Set background color to dark grey */
+            color: #fff; /* Set text color to white */
+            text-align: center;
+            padding: 1em 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Chapter 6: Programming Languages</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+
+        <table>
+            <tr>
+                <th>Term</th>
+                <th>Definition</th>
+            </tr>
+            <tr>
+                <td>machine language</td>
+                <td>The lowest-level programming language, consisting of binary code that the computer's central processing unit (CPU) can directly execute.</td>
+            </tr>
+            <tr>
+                <td>debugging</td>
+                <td>The process of identifying and fixing errors (bugs) in a computer program.</td>
+            </tr>
+            <tr>
+                <td>assembler</td>
+                <td>A program that translates assembly language code into machine code.</td>
+            </tr>
+            <tr>
+                <td>assembly language</td>
+                <td>A low-level programming language that uses symbolic code representing the basic operations of a computer's central processing unit (CPU).</td>
+            </tr>
+            <tr>
+                <td>translator</td>
+                <td>A program that converts code from one programming language into another.</td>
+            </tr>
+            <tr>
+                <td>compiler</td>
+                <td>A type of translator that translates the entire source code of a program into machine code before execution.</td>
+            </tr>
+            <tr>
+                <td>interpreter</td>
+                <td>A type of translator that translates and executes one line of code at a time.</td>
+            </tr>
+            <tr>
+                <td>cross-platform software</td>
+                <td>Software that can run on multiple operating systems or platforms without modification.</td>
+            </tr>
+            <tr>
+                <td>natural language</td>
+                <td>A human language, such as English, Spanish, or Chinese, used for communication between people.</td>
+            </tr>
+            <tr>
+                <td>formal language</td>
+                <td>A language designed for specific applications, often with precise rules and syntax, such as programming languages and mathematical notation.</td>
+            </tr>
+            <tr>
+                <td>machine independence</td>
+                <td>The ability of a program to run on different types of computers without modification.</td>
+            </tr>
+            <tr>
+                <td>high-level programming language</td>
+                <td>A programming language with a high level of abstraction from the computer's hardware, making it easier for programmers to write code.</td>
+            </tr>
+            <tr>
+                <td>object-oriented programming (OOP)</td>
+                <td>A programming paradigm that uses objects and classes for organizing and structuring code.</td>
+            </tr>
+            <tr>
+                <td>scripting language</td>
+                <td>A programming language designed for automating the execution of tasks, often in the context of a larger program.</td>
+            </tr>
+            <tr>
+                <td>data types:</td>
+                <td>The classification or categorization of data items. Common data types include integer, float, and string.</td>
+            </tr>
+            <tr>
+                <td>Integer</td>
+                <td>A data type that represents whole numbers without any decimal points.</td>
+            </tr>
+            <tr>
+                <td>Float</td>
+                <td>A data type that represents numbers with decimal points or fractional parts.</td>
+            </tr>
+            <tr>
+                <td>string</td>
+                <td>A data type that represents a sequence of characters, typically used for text.</td>
+            </tr>
+            <tr>
+                <td>primitive data type</td>
+                <td>A basic data type that is not composed of other data types. Examples include integers and floats.</td>
+            </tr>
+            <tr>
+                <td>data structure</td>
+                <td>A way of organizing and storing data to perform operations efficiently.</td>
+            </tr>
+            <tr>
+                <td>Python collection data structures</td>
+                <td>Data structures provided by the Python programming language for storing and organizing collections of data.</td>
+            </tr>
+            <tr>
+                <td>List</td>
+                <td>A collection data type in Python that is ordered and mutable, allowing the storage of multiple items.</td>
+            </tr>
+            <tr>
+                <td>Tuple</td>
+                <td>A collection data type in Python that is ordered and immutable, meaning its elements cannot be changed after creation.</td>
+                       <tr>
+                <td>Set</td>
+                <td>A collection data type in Python that is unordered and contains unique elements.</td>
+            </tr>
+            <tr>
+                <td>dictionary</td>
+                <td>A collection data type in Python that consists of key-value pairs, allowing efficient retrieval of values based on their associated keys.</td>
+            </tr>
+            <tr>
+                <td>function</td>
+                <td>A reusable block of code that performs a specific task, often with parameters and return values.</td>
+            </tr>
+            <tr>
+                <td>local variable</td>
+                <td>A variable declared within a specific function or block of code, accessible only within that scope.</td>
+            </tr>
+            <tr>
+                <td>global variable</td>
+                <td>A variable declared at the top level of a program, accessible throughout the entire program.</td>
+            </tr>
+            <tr>
+                <td>source program</td>
+                <td>The human-readable code written by a programmer in a high-level programming language.</td>
+            </tr>
+            <tr>
+                <td>object program</td>
+                <td>The machine code generated by a compiler or assembler from the source program.</td>
+            </tr>
+        </table>
+
+    </div>
+
+    <footer>
+        &copy; 2023 Your Website Name
+    </footer>
+
+</body>
+
+</html>
+
